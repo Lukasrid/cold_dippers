@@ -27,16 +27,21 @@ body {
 
 #logo {
     text-align: center;
-    font-size: 300%;
+    font-size: 450%;
     font-family: Caveat, sans-serif;
     text-transform: uppercase;
     margin-top: 20px;
     color: #0D00A4;
+    text-decoration: none;
+}
+
+#logo a {
+    text-decoration: none;
 }
 
 #logo-desc {
     text-align: center;
-    font-size: 130%;
+    font-size: 110%;
     margin-top: 5px;
     color: #22007C;
     font-family: Merriweather, sans-serif;
@@ -45,12 +50,21 @@ body {
 
 #nav-links {
     text-align: center;
-    font-size: 100%;
+    font-size: 130%;
     font-family: Merriweather, sans-serif;
-    color: #140152;
+    
 }
 
 .nav {
     display: inline-block;
     margin: 30px 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #140152;
+}
+
+.active {
+    border-bottom: 2px solid #140152;
 }
