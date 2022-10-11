@@ -1,19 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Merriweather&family=Playfair+Display&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* body color */
+
+body {
+/* 
+    height: 100%;
+    
+    background: hsla(185, 100%, 67%, 1) no-repeat;
+
+    background: linear-gradient(90deg, hsla(185, 100%, 67%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(185, 100%, 67%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(185, 100%, 67%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#57f1ff", endColorstr="#ffffff", GradientType=1); */
+}
+
 /* Logo and Navigational links */
 
 #logo {
     text-align: center;
+    font-size: 300%;
+    font-family: Caveat, sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 
 #nav-links {
     text-align: center;
+    font-size: 100%;
+    font-family: Merriweather, sans-serif;
 }
 
 .nav {
     display: inline-block;
+    margin: 30px 50px;
 }
