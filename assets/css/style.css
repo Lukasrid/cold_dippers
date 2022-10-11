@@ -9,18 +9,15 @@
 /* body color */
 
 body {
-/* 
-    height: 100%;
-    
-    background: hsla(185, 100%, 67%, 1) no-repeat;
+    background: hsla(212, 100%, 76%, 1);
 
-    background: linear-gradient(90deg, hsla(185, 100%, 67%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+background: linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
 
-    background: -moz-linear-gradient(90deg, hsla(185, 100%, 67%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
 
-    background: -webkit-linear-gradient(90deg, hsla(185, 100%, 67%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
 
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#57f1ff", endColorstr="#ffffff", GradientType=1); */
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", endColorstr="#ffffff", GradientType=1 );
 }
 
 /* Logo and Navigational links */
@@ -52,7 +49,7 @@ body {
     text-align: center;
     font-size: 130%;
     font-family: Merriweather, sans-serif;
-    
+
 }
 
 .nav {
@@ -73,43 +70,49 @@ body {
 
 .parallax {
     background-image: url("../images/brighton-cliff.jpg");
-    min-height: 600px; 
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  #hero-text {
-    padding: 100px;
+#hero-margin {
+    height: 100px;
+    visibility: hidden;
+}
+
+#hero-text {
     text-align: center;
     color: #04052E;
     font-family: Playfair Display, sans-serif;
     font-size: 200%;
-  }
+    background-color: rgba(255, 255, 255, 0.7);
+    text-transform: capitalize;
+}
 
-  /* Ethos */
+/* Ethos */
 
-  #ethos-text{
-    
+#ethos-text {
+
     font-family: Playfair Display, sans-serif;
     color: #04052E;
-    
-  }
 
-  #ethos-left {
+}
+
+#ethos-left {
     padding-left: 13%;
     padding-top: 20px;
     float: left;
     font-size: 150%;
-  }
+}
 
-  #ethos-right {
+#ethos-right {
     text-align: center;
     margin-right: 20%;
-    margin-top: 70px;
+    margin-top: 60px;
     padding: 70px;
     border-radius: 50%;
     float: right;
-    background-color: rgba(13, 0, 164, 0.4);
-  }
+    background-color: rgba(0, 0, 255, 0.5);
+}
