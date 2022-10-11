@@ -73,7 +73,7 @@ body {
 
 .parallax {
     background-image: url("../images/brighton-cliff.jpg");
-    min-height: 400px; 
+    min-height: 600px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,4 +85,31 @@ body {
     text-align: center;
     color: #04052E;
     font-family: Playfair Display, sans-serif;
+    font-size: 200%;
+  }
+
+  /* Ethos */
+
+  #ethos-text{
+    
+    font-family: Playfair Display, sans-serif;
+    color: #04052E;
+    
+  }
+
+  #ethos-left {
+    padding-left: 13%;
+    padding-top: 20px;
+    float: left;
+    font-size: 150%;
+  }
+
+  #ethos-right {
+    text-align: center;
+    margin-right: 20%;
+    margin-top: 70px;
+    padding: 70px;
+    border-radius: 50%;
+    float: right;
+    background-color: rgba(13, 0, 164, 0.4);
   }
