@@ -69,13 +69,20 @@ body {
     border-bottom: 2px solid #140152;
 }
 
-/* hero image */
+/* hero image and text*/
 
 .parallax {
     background-image: url("../images/brighton-cliff.jpg");
-    min-height: 800px; 
+    min-height: 400px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  #hero-text {
+    padding: 100px;
+    text-align: center;
+    color: #04052E;
+    font-family: Playfair Display, sans-serif;
   }
