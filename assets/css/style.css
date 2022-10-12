@@ -215,8 +215,13 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
 /* Community get in touch form */
 
 .get-in-touch {
-    padding-left: 10%;
-    padding-top: 40px;
+    margin-left: 8%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#message-head {
+    margin-left: 8%;
 }
 
 #message {
