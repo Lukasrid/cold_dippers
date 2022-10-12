@@ -148,4 +148,12 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     font-family: Merriweather, sans-serif;
 }
 
+/* footer */
+.footer-icons {
+    text-align: center;
+    font-size: 140%;
+    padding: 20px 70px;
+    color: #22007C;
+}
+
 
