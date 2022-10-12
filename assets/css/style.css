@@ -175,6 +175,43 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     height: 350px;
 }
 
+/* Community values */
+
+#values {
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    margin: 40px;
+}
+
+#values div {
+    background-image: url(../images/frozen-water.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border: solid 3px white;
+    border-radius: 10px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+#values div p {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 100px;
+    font-size: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+.value-margin {
+    margin-left: 200px;
+}
+
+
 /* Community get in touch form */
 
 .get-in-touch {
@@ -183,14 +220,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
 }
 
 #message {
-    width: 50%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
+ 
 
 }
 
