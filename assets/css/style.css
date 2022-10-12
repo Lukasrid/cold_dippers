@@ -112,11 +112,17 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
 #ethos-right {
     text-align: center;
     margin-right: 20%;
-    margin-top: 60px;
+    margin-top: 20px;
     padding: 70px;
+    border: #04052E dashed 5px;
     border-radius: 50%;
     float: right;
     background-color: rgba(0, 0, 255, 0.5);
+}
+
+#ethos-water {
+    font-size: 200%;
+    padding-top: 10px;
 }
 
 /* End message */
