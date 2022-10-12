@@ -174,3 +174,24 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     width: 19%;
     height: 350px;
 }
+
+/* Community get in touch form */
+
+.get-in-touch {
+    padding-left: 10%;
+    padding-top: 40px;
+}
+
+#message {
+    width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+
+}
+
+
