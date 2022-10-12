@@ -40,12 +40,33 @@
         <img src="assets/images/group-swimming2.jpg" alt="Overhead shot of a group of people swimming in the sea">
     </section>
     <section>
+        <div>
+            <h2>Values</h2>
+        </div>
+    </section>
+    <section>
+        <h2 id="message-head">Get in touch!</h2>
         <form method="POST" action="https://formdump.codeinstitute.net/" class="get-in-touch">
-            <label for="message">Get in touch!</label>
+            <label for="email">E-mail</label>
             <br>
-            <input type="email" name="email" required>
+            <input type="email" name="email" id="email" placeholder="Your e-mail address" required>
+            <br>
+            <label for="message">Message</label>
+            <br>
             <textarea rows="8" cols="100" name="message" placeholder="Type your message here" required></textarea>
-            <input type="submit">
+            <br>
+            <label for="reason">Reason for message</label>
+            <br>
+            <input list="reasons" name="reason" id="reason" placeholder="Reason for contact">
+            <datalist id="reasons">
+                <option value="General inquiry"></option>
+                <option value="Meet-ups"></option>
+                <option value="Concern"></option>
+                <option value="Health inquiry"></option>
+                <option value="Complaint"></option>
+            </datalist>
+            <br>
+            <input type="submit" value="Send">
         </form>
     </section>
-    </body>
+</body>
