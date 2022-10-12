@@ -89,6 +89,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     font-size: 200%;
     background-color: rgba(255, 255, 255, 0.7);
     text-transform: capitalize;
+    letter-spacing: 1px;
 }
 
 /* Ethos */
@@ -105,6 +106,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     padding-top: 20px;
     float: left;
     font-size: 150%;
+    font-weight: 600;
 }
 
 #ethos-right {
@@ -116,7 +118,34 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     float: right;
     background-color: rgba(0, 0, 255, 0.5);
 }
+
+/* End message */
+
 #home-end {
     clear: both;
+    padding-top: 30px;
 }
- 
+
+#home-end h2 {
+    font-family: Merriweather, sans-serif;
+    font-size: 170%;
+    text-align: center;
+    color: #02010A;
+}
+
+#home-end2 {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-family: Playfair Display, sans-serif;
+    font-size: 130%;
+    line-height: 2;
+    font-weight: 600;
+    color: #02010A;
+}
+
+#slogan {
+    font-family: Merriweather, sans-serif;
+}
+
+
