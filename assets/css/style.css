@@ -116,3 +116,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     float: right;
     background-color: rgba(0, 0, 255, 0.5);
 }
+#home-end {
+    clear: both;
+}
+ 
