@@ -161,6 +161,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     font-size: 140%;
     padding: 20px 70px;
     color: #22007C;
+    clear: both;
 }
 
 /* Community photos */
@@ -181,6 +182,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     text-align: center;
     font-family: Merriweather, sans-serif;
     margin: 40px;
+    color: #140152;
 }
 
 #values div {
@@ -205,6 +207,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     padding: 10px;
     border: 3px solid rgba(255, 255, 255, 0.7);
     border-radius: 5px;
+    color: #02010A;
 }
 
 .value-margin {
@@ -218,15 +221,66 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     margin-left: 8%;
     margin-top: 20px;
     margin-bottom: 40px;
+    float: left;
 }
 
 #message-head {
     margin-left: 8%;
+    font-family: Merriweather, sans-serif;
+    font-size: 150%;
+    color: #02010A;
+    position: relative;
+    top: 13px;
 }
 
-#message {
- 
-
+textarea {
+    resize: none;
 }
 
+.get-in-touch {
+    font-family: Playfair Display, sans-serif;
+    font-size: 110%;
+    font-weight: 600;
+    color: #02010A;
+}
+
+.message-box {
+    border: solid 2px #22007C;
+    border-radius: 4px;
+}
+
+#reason {
+    margin-left: 5px;
+    border: solid 2px #22007C;
+    border-radius: 4px;
+}
+
+#submit {
+    height: 40px;
+    width: 100px;
+    background-color: #140152;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+#submit:hover {
+    background-color: #ffeb38;
+    color: black;
+}
+
+
+/* group photo at bottom */
+
+#c-photo {
+    width: 40%;
+    height: 100%;
+    float: right;
+    margin-right: 8%;
+    position: relative;
+    bottom: 20px;
+    border: solid 2px #22007C;
+    border-radius: 10px;
+}
 

@@ -52,37 +52,39 @@
         </div>
     </section>
     <section>
+        <div>
         <h2 id="message-head">Get in touch!</h2>
         <form method="POST" action="https://formdump.codeinstitute.net/" class="get-in-touch">
             <label for="email">E-mail</label>
             <br>
-            <input type="email" name="email" id="email" placeholder="Your e-mail address" required>
+            <input type="email" name="email" id="email" placeholder="Your e-mail address" class="message-box" required>
             <br>
             <label for="message">Message</label>
             <br>
-            <textarea rows="8" cols="100" name="message" placeholder="Type your message here" required></textarea>
+            <textarea rows="8" cols="100" name="message" placeholder="Type your message here" class="message-box" required></textarea>
             <br>
-            <label for="reason">Reason for contact</label>
+            <label for="Reason">Reason for contact</label>
+            <select id="reason" name="reason">
+                <option value="General inquiries">General inquiries</option>
+                <option value="Meet-ups">Meet-ups</option>
+                <option value="Concern">Concerns</option>
+                <option value="Health inquiries">Health inquiries</option>
+                <option value="Complaints">Complaints</option>
+            </select>
             <br>
-            <input list="reasons" name="reason" id="reason" placeholder="Reason">
-            <datalist id="reasons">
-                <option value="General inquiry"></option>
-                <option value="Meet-ups"></option>
-                <option value="Concern"></option>
-                <option value="Health inquiry"></option>
-                <option value="Complaint"></option>
-            </datalist>
-            <br>
-            <input type="submit" value="Send">
+            <input type="submit" value="Send" id="submit">
         </form>
+            <img src="./assets/images/group-photo.jpg" alt="" id="c-photo">
+            </div>
     </section>
     <footer>
         <div class="footer-icons">
-            <a href="https://www.facebook.com/" class="footer-icons" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/" class="footer-icons" target="_blank"><i class="fa-brands fa-facebook" id="facebook"></i></a>
             <a href="https://www.instagram.com/" class="footer-icons" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.twitter.com/" class="footer-icons" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             <a href="https://www.discord.com/" class="footer-icons" target="_blank"><i class="fa-brands fa-discord"></i></a>
         </div>
+        <br>
     </footer>
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/e670a6b528.js" crossorigin="anonymous"></script>
