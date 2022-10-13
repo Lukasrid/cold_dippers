@@ -152,6 +152,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
 
 #slogan {
     font-family: Merriweather, sans-serif;
+    position: relative;
+    bottom: 30px;
 }
 
 /* footer */
