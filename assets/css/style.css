@@ -286,3 +286,40 @@ textarea {
     border-radius: 10px;
 }
 
+/* about us on information page */
+
+#about-us {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border: solid 2px #140152;
+    padding: 20px;
+    clear: both;
+
+}
+
+#about-us h2 {
+    font-family: Merriweather, sans-serif;
+    color: #140152;
+    margin-bottom: 15px;
+}
+
+#about-us p {
+    font-family: Merriweather, sans-serif;
+    font-weight: 500;
+    margin: 0px 50px 0px 50px;
+    font-size: 120%;
+}
+
+/* map */
+
+#map {
+    height: 400px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#info {
+    float: left;
+    width: 33%;
+}
