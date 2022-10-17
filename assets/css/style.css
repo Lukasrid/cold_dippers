@@ -213,7 +213,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
 }
 
 .value-margin {
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 
@@ -237,6 +237,11 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
 
 textarea {
     resize: none;
+}
+
+#messagebox {
+    height: 8em;
+    width: 50em;
 }
 
 .get-in-touch {
@@ -373,6 +378,13 @@ textarea {
 
 /* Media queries */
 
+/* For larger to medium screen sizes from 1600px wide and down */
+@media screen and (max-width: 1600px) {
+    #messagebox {
+        width: 30em;
+    }
+}
+
 /* For larger to medium screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #ethos-right {
@@ -386,5 +398,42 @@ textarea {
 
     .value-margin {
         margin-left: 20px;
+    }
+     
+    #c-photo {
+        clear: both;
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #messagebox {
+        width: 30em;
+    }
+    
+    #info {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    #important, #map {
+     float: left;   
+     clear: both;
+     width: 90%;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-bottom: 20px;
+     padding-left: 5px;
+     padding-right: ;
+    }
+
+    #about-us {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 10%;
+        padding: 10px 0px;
     }
 }
