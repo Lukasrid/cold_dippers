@@ -436,6 +436,11 @@ textarea {
         margin-right: 5%;
         padding: 10px 0px;
     }
+
+    #ethos-right {
+        
+        margin-right: 30%;
+    }
 }
 
 
@@ -450,15 +455,12 @@ textarea {
         margin-top: 50px;
     }
 
-    /* #phone-value {
-        margin-top: 1px;
-    }
-     #phone-value2 {
-        margin-bottom: 0px;
-     } */
-
     #messagebox {
         width: 20em;
+    }
+
+    #ethos-right {
+        margin-right: 6%;
     }
 
 }
