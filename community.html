@@ -35,12 +35,12 @@
     <section id="photos">
         <img src="assets/images/brighton-pier.jpg" alt="Brighton pier at sunset">
         <img src="assets/images/group-swimming1.jpg" alt="A group of people in the distance swimming in the sea">
-        <img src="assets/images/man-swimmg.jpg" alt="Man in the sea raising his hands above his head">
+        <img src="assets/images/man-swimming.jpg" alt="Man in the sea raising his hands above his head">
         <img src="assets/images/west-pier.jpg" alt="The burnt down west pier in Brighton during the day">
         <img src="assets/images/group-swimming2.jpg" alt="Overhead shot of a group of people swimming in the sea">
     </section>
     <section>
-        <div id="values">
+        <div id="values" title="Ice chunks in water">
             <h2>Community Values</h2>
             <div>
                     <p>saftey</p> 
@@ -73,11 +73,14 @@
                 <option value="Newsletter">Newsletter</option>
             </select>
             <br>
-            <input type="submit" value="Send" id="submit">
+            
             <label for="newsletter">Sign up to weekly newsletter</label>
-            <input type="checkbox" value="newsletter" id="newsletter">
+            <input type="checkbox" value="yes" name="newsletter" id="newsletter">
+            <input type="hidden" name="newsletter" value="no" id="newsletter">
+            <br>
+            <input type="submit" value="Send" id="submit">
         </form>
-            <img src="./assets/images/group-photo.jpg" alt="" id="c-photo">
+            <img src="./assets/images/group-photo.jpg" alt="Group photo of the Cold Dippers Comminity" id="c-photo">
             </div>
     </section>
     <footer>
