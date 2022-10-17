@@ -370,3 +370,21 @@ textarea {
     color: rgb(228, 0, 0);
     font-weight: 800;
 }
+
+/* Media queries */
+
+/* For larger to medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #ethos-right {
+        text-align: center;
+    }
+
+    #values div p {
+        font-size: medium;
+        margin: 550 0 0 0;
+    }
+
+    .value-margin {
+        margin-left: 20px;
+    }
+}
