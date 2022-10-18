@@ -11,13 +11,11 @@
 body {
     background: hsla(212, 100%, 76%, 1);
 
-background: linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
+    background: linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
 
-background: -moz-linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
+    background: -moz-linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
 
-background: -webkit-linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", endColorstr="#ffffff", GradientType=1 );
+    background: -webkit-linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
 }
 
 /* Logo and Navigational links */
@@ -85,7 +83,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
 #hero-text {
     text-align: center;
     color: #04052E;
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 200%;
     background-color: rgba(255, 255, 255, 0.7);
     text-transform: capitalize;
@@ -96,7 +94,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
 
 #ethos-text {
 
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     color: #04052E;
 
 }
@@ -143,7 +141,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     text-align: center;
     margin: auto;
     width: 80%;
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 130%;
     line-height: 2;
     font-weight: 600;
@@ -172,7 +170,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#85beff", en
     text-align: center;
 }
 
-#photos > img {
+#photos>img {
     object-fit: cover;
     width: 19%;
     height: 350px;
@@ -245,7 +243,7 @@ textarea {
 }
 
 .get-in-touch {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 110%;
     font-weight: 600;
     color: #02010A;
@@ -332,7 +330,7 @@ textarea {
     padding-left: 10%;
     padding-top: 100px;
     text-align: center;
-    
+
 }
 
 #info h2 {
@@ -342,7 +340,7 @@ textarea {
 }
 
 #info p {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 110%;
     font-weight: 600;
     color: #04052E;
@@ -365,7 +363,7 @@ textarea {
 }
 
 #important ul {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 110%;
     font-weight: 600;
     color: #04052E;
@@ -393,13 +391,12 @@ textarea {
 
     #values div p {
         font-size: medium;
-        margin: 550 0 0 0;
     }
 
     .value-margin {
         margin-left: 20px;
     }
-     
+
     #c-photo {
         clear: both;
         float: left;
@@ -410,7 +407,7 @@ textarea {
     #messagebox {
         width: 30em;
     }
-    
+
     #info {
         width: 100%;
         text-align: center;
@@ -418,15 +415,15 @@ textarea {
         padding-top: 0;
     }
 
-    #important, #map {
-     float: left;   
-     clear: both;
-     width: 90%;
-     margin-left: 5%;
-     margin-right: 5%;
-     margin-bottom: 20px;
-     padding-left: 5px;
-     padding-right: ;
+    #important,
+    #map {
+        float: left;
+        clear: both;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px;
+        padding-left: 5px;
     }
 
     #about-us {
@@ -438,7 +435,7 @@ textarea {
     }
 
     #ethos-right {
-        
+
         margin-right: 30%;
     }
 }
