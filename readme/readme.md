@@ -61,3 +61,9 @@ Cold Dippers is a website for a Brighton based cold water immersion community. T
     - All links within normal text are blue and underlined for easy identification that they are links.
     - A blue gradient effect has been added to the background of all pages to give off the sense that you are submerging into cold water as you scroll down.
     - Certain words and phrases have been accentuated with color change, being made bold or made italicised where emphasis is deemed important.
+
+### Features Left to Implement
+ - The community values on the information page, when each value is clicked a box or a link to another page will open describing each value more in detail and how the community works to keep them up.
+ - A contact page will be added where all relevant contact information will be collected including the get in touch from from the community page.
+ - A log in function will be added for 
+ - On the community page a discussion board will be added where members can 
