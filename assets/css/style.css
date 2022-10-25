@@ -16,6 +16,7 @@ body {
     background: -moz-linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
 
     background: -webkit-linear-gradient(90deg, hsla(212, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
+    background-repeat: no-repeat;
 }
 
 /* Logo and Navigational links */
