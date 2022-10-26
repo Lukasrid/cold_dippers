@@ -109,10 +109,23 @@ Cold Dippers is a website for a Brighton based cold water immersion community. T
 
     ![Lighthouse score for information](./images/lighthouse-info.PNG)
 
-## Validator Testing
-- ### HTML
-No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Flukasrid.github.io%2Fcold_dippers%2F)
-- ### CSS
-No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flukasrid.github.io%2Fcold_dippers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+### Validator Testing
+- #### HTML
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Flukasrid.github.io%2Fcold_dippers%2F).
+- #### CSS
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flukasrid.github.io%2Fcold_dippers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
+## Deployment
+- The Website was deployed through the hosting platform [GitHub](https://github.com/).
 
+## Credits
+- ### Images
+    - All images were taken from [Pexels](https://www.pexels.com/).
+- ### Fonts
+    - The fonts were taken from [Google Fonts](https://fonts.google.com/).
+- ### Symbols
+    - The symbols were taken from [Font Awesome](https://fontawesome.com/).
+- ### Colors
+    - The color pallete was created with [Coolors](https://coolors.co/).
+- ### Code
+    - The code for the parallax scrolling effect on the home page was learnt from [W3 Schools](https://www.w3schools.com/).
