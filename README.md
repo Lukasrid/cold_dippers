@@ -1,3 +1,5 @@
+Site Access: https://lukasrid.github.io/cold_dippers/
+
 # Cold Dippers
 
 Cold Dippers is a website for a Brighton based cold water immersion community. The purpose of the website is to bring like mided people together who want to reap the benifits of exposure to the cold. It is there to provide support and information to anyone who may be interested. 
