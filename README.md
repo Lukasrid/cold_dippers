@@ -1,108 +1,131 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cold Dippers
 
-Welcome Lukasrid,
+Cold Dippers is a website for a Brighton based cold water immersion community. The purpose of the website is to bring like mided people together who want to reap the benifits of exposure to the cold. It is there to provide support and information to anyone who may be interested. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Website displayed on different screen sizes](./images/am-i-responsive-cold-dippers.PNG)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- #### Logo and Navigation Menu
+    - The Cold Dippers logo and the three different pages available are displayed on the top of each page in the exact same way on each page for easy navigation.
+    - A small description of who the Cold Dippers are is displayed under the logo.
+    - Clicking the logo will bring you back to the homepage from any of the three pages.
+    -The current page you are on will have the page name underlined in the navigation menu.
 
-`python3 -m http.server`
+![logo and navigation menu](./images/Logo.PNG)
 
-A blue button should appear to click: _Make Public_,
+- #### Homepage Image and Description
+    - The first thing on the homepage is a picture of the Brighton sea with a community description to let the user know what the aim of the website is as well as a glimpse into the environment they will be getting into.
+    - The image is made with a parallax scrolling effect to give the sense that it is a window looking out to Brighton sea to draw in the user.
 
-Another blue button should appear to click: _Open Browser_.
+![Homepage picutre and community description](./images/homepage-image.PNG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- #### Homepage Information
+    - The homepage information starts of with a few questions to see if this communiity is something new potential members may be interested in.
+    - The homepage then goes on to a section where some information about the benefits of this practice is given. 
+    - Some motivaional words are presented through this section to help encourage people to join.
+    - At the very bottom of the hompage you will find logos of different social media platforms that each link to the specified social platform for the Cold Dippers community. These logos and links can be found at the bottom of each page within the website in the exact same style.
 
-A blue button should appear to click: _Make Public_,
+![Homepage information and social media links](./images/homepage-info.PNG)
 
-Another blue button should appear to click: _Open Browser_.
+- #### Community Images and Values
+    - At the top of the community page there are some images displayed of the Brighton sea and members taking part in the cold water swimming. 
+    - A set of values is labeled and displayed under the community images to let the users know what the values the community likes to promnote and finds most important.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Community Images and Values](./images/community-pic-values.PNG)
 
-To log into the Heroku toolbelt CLI:
+- #### Get In Touch Form
+    - At the bottom of the community page a 'Get in touch' form can be found that lets users type in their e-mail, message, reason for contact and check a box if they would like to recive a weekly newsletter from the community.
+    - A group picture of the Cold Dippers community is located next to the form in order to provide some sense of who they are contacting. 
+    - The send button has a hover effect turning it a different color.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Get in touch form and community group photo](./images/get-in-touch.PNG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- #### Times, Location and Important Informatiuon
+    - At the top of the information page the meet up days and times can be found followed by a description of the location.
+    - A map is embeded next to meet-up times with the meet-up location pin pointed.
+    - Additional important information can be found next to the map and how to find extra information on social platforms incase of unforseen events.
 
-------
+![Meet-up times, meet-up location and additional information](./images/info%2Blocation.PNG)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- #### About Us
+    - The bottom of the information page an about section contains a more detailed description about the origins of the community and the goals it aims to achieve.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![A detailed description of the community origins and goals](./images/about-us.PNG)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- #### Additional Features
+    - All links within the webpage will open in new tabs for easy navigation.
+    - All links within normal text are blue and underlined for easy identification that they are links.
+    - A blue gradient effect has been added to the background of all pages to give off the sense that you are submerging into cold water as you scroll down.
+    - Certain words and phrases have been accentuated with color change, being made bold or made italicised where emphasis is deemed important.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Features Left to Implement
+ - The community values on the information page, when each value is clicked a box or a link to another page will open describing each value more in detail and how the community works to keep them up.
+ - A contact page will be added where all relevant contact information will be collected including the get in touch from from the community page.
+ - A log in function will be added for members to have their own personal profile. 
+ - On the community page a discussion board will be added where members can post threads and comments. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ ## Testing
+  - ### Screen Sizes
+    - Media queries have been added to all parts of the code that did not resize well when the screen size was made smaller. This includes: 
+        - The positioning of certain elements such as the "Come get wet with the Cold Dippers" circle on the homepage. 
+        - The resizing of margins and paddings to create a nicer visiual experience such as the margins of the community values on the community page.
+        - The resizing of the message box in the "Get in touch!" form for different screen sizes.
+    - The website now works and looks good on screen sizes down to 285px.
+    - When the website is very zoomed out the blue gradient background will repeat after a while. *(Update: this was fixed with an added background-repeat: no-repeat; function in the css file.)
+    ![Reapeating gradient background](./images/background-repeat.PNG) 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- ### Form
+    - The "Get in touch!" form on the community page works, all the fields need to be filled in in order for the form to be allowed to be sent including having the appropriate email format. The newsletter checkbox is however optional.
+    ![Form filled in](./images/form-filled.PNG)![Form data processed](./images/form-sent.PNG)
+    - In the future as "Success" message will appear on the screen rather than being redirected to the input data.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- ### Links
+    - All links have been tested that they work and open up in new tabs. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- ### Lighthouse
+    - Home page: gave a good score across all areas
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    ![Lighthouse score for home](./images/lighthouse-home.PNG)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    - Community page: gave good scores except in the performane area
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    ![Lighthouse score for community](./images/lighthouse-community.PNG)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    This was thought to be due to the pictures involved being too large so a different format was tried. All the files were converted from JPEG to webp files. This however lowered the performance score
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    ![lighthouse score for community with .webp image files](./images/lighthouse-community-webp.PNG)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    The image files were then inserted in as JPEGs but in a compressed format to try and improve the performance score
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    ![Lighthouse score for community with compressed JPEGs](./images/lighthouse-community-compressed.PNG)
 
-------
+    This improved the score slightly but not by much which suggests there is another underlying problem bringing down the performance score which has not been found. It may perhaps be the form or unoptimized code written for the page.
 
-## FAQ about the uptime script
+    - Information page: gave a good score across all areas
 
-**Why have you added this script?**
+    ![Lighthouse score for information](./images/lighthouse-info.PNG)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Validator Testing
+- #### HTML
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Flukasrid.github.io%2Fcold_dippers%2F).
+- #### CSS
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flukasrid.github.io%2Fcold_dippers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-**How will this affect me?**
+## Deployment
+- The Website was deployed through the hosting platform [GitHub](https://github.com/).
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Credits
+- ### Images
+    - All images were taken from [Pexels](https://www.pexels.com/).
+- ### Fonts
+    - The fonts were taken from [Google Fonts](https://fonts.google.com/).
+- ### Symbols
+    - The symbols were taken from [Font Awesome](https://fontawesome.com/).
+- ### Colors
+    - The color pallete was created with [Coolors](https://coolors.co/).
+- ### Code
+    - The code for the parallax scrolling effect on the home page was learnt from [W3 Schools](https://www.w3schools.com/).
